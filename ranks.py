@@ -4,7 +4,6 @@ Created on Tue Sep 25 17:27:50 2018
 
 @author: ryans
 """
-
 import requests
 from bs4 import BeautifulSoup
 def analyze(team):
