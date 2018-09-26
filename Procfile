@@ -1,1 +1,1 @@
-web: python ow_bot.py
+web: python ow_bot.py $PORT
