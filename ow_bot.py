@@ -67,7 +67,7 @@ async def sr(name):
     output = findSR(name)
     output = '```autohotkey' +'\n' + output + '```'
     await bot.say(output)
-
+'''
 @bot.command(description='gachibass')
 async def gachi():
 	output = '░░░░░▓▓▓▓▓▓▓▓▓▓▓░░░░░░░░' + '\n'
@@ -84,5 +84,5 @@ async def gachi():
 	+ '░░░░░▓▓▒░░▒▒▒▒▒▒▒▒▒▒▒▓▓░ ' + '\n'
 	+ '░░░░░░▓▒▒░░░░▒▒▒▒▒▒▒▓▓░░ ' + '\n'
 	await bot.say(output)
-    
+'''    
 bot.run('NDk0MzAxODMwMzgyMDkyMzIw.Doxi8g.KfJtft4C_OOo2Xwx0iBksFCu_-M')
